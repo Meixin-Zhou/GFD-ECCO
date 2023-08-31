@@ -1,0 +1,13 @@
+01. speed profile along a line segment: interpolate speed along a line transect (methods: bin average or nearest neighbor)
+02. grid interpolation: interpolate speed in a grid using three different methods (not built-in methods)
+03. speed interpolation: interpolate speed in a larger and finer grid, including making the new data array structures for the velocity components; plot global speed profile
+04. horizontal and vertical speed profile: use cubic interpolation to get speed profile horizontally and vertically (blank plots result from NaN speed values)
+05. interpolate_Gulf_Stream_surface: use bin average interpolation with varying delta to get speed profile of the Gulf Stream at surface
+06. plot variables in a tile: plot SSH, UVEL, VVEL, speed in tile 10
+07. velocity plot for tile 2 and 10: plot UVEL and VVEL in tile 2 and 10 for comparison
+08. vertical slice (no interpolation): plot vertical slice of VVEL (northward component of velocity) at constant latitude without interpolation
+09. zonal integral of meridional velocity: compute and plot zonal integral of northward velocity (VVELMASS) in the Atlantic Ocean over all depths
+10. AMOC at different latitudes: compute and plot AMOC using VVELMASS at varying latitudes
+11. time series for AMOC: get time series array for AMOC at degree 10 of latitude over all months and store the array in a csv file for later use
+12. time series plotting: plot time series for AMOC
+13. filter_timeseries: filter time series using fft and ifft
